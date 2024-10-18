@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhanced Responsive Webpage Example</title>
+    <link href="/style.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-500 py-6">
+      <div class="flex justify-between items-center ml-5 mr-5">
+        <div class="text-white text-left text-4xl font-bold">My Enhanced Website</div>
+        <div class="hidden xl:block text-white">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section>
+      <div class="bg-slate-900 py-6">
+        <h1 class="text-white text-center text-6xl font-bold">Welcome to My <br>Enhanced Website</h1>
+        <p class="text-white text-center text-3xl mt-6">Discover amazing content and services. Tailwind <br> makes it magical!</p>
+      </div>
+    </section>
+
+    <!-- Featured Items Grid -->
+    <section>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-3">
+        <div class="bg-white mt-10 px-8 pb-8 pt-4 rounded-md shadow-md">
+          <h2 class="font-bold text-2xl mt-3">Featured Item 1</h2>
+          <p class="mt-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id
+            feugiat velit.
+          </p>
+          <img class="w-full h-48 rounded-lg mt-4 object-cover bg-center" src="./img/image1.jpg" alt="Featured Item 1" />
+        </div>
+        <div class="bg-white grid mt-10 px-8 pb-8 pt-4 rounded-md shadow-md">
+          <h2 class="font-bold text-2xl mt-3">Featured Item 2</h2>
+          <p>
+            Nulla facilisi. Sed euismod mauris at justo varius, ac ultricies
+            elit posuere.
+          </p>
+          <img class="w-full h-48 rounded-lg mt-4 object-cover bg-center" src="./img/image2.jpg" alt="Featured Item 2" />
+        </div>
+        <div class="bg-white grid mt-10 px-8 pb-8 pt-4 rounded-md shadow-md">
+          <h2 class="font-bold text-2xl mt-3">Featured Item 3</h2>
+          <p>
+            Quisque euismod elit eu felis vestibulum, vitae mattis tortor
+            sodales.
+          </p>
+          <img class="w-full h-48 rounded-lg mt-4 object-cover bg-center" src="./img/image3.jpg" alt="Featured Item 3" />
+        </div>
+        <!-- Add more items as needed -->
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section>
+      <div class="bg-white mt-10  md: m-auto xl: max-w-xl rounded-md shadow-md p-10">
+        <h2 class="font-bold text-3xl pl-5">Contact Us</h2>
+        <form>
+          <div class="mt-6">
+            <label for="name">Name:</label>
+            <input class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300"/>
+          </div>
+          <div class="mt-6">
+            <label for="email">Email:</label>
+            <input class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300" type="email" id="email" name="email" />
+          </div>
+          <div class="mt-6">
+            <label for="message">Message:</label>
+            <textarea class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300" id="message" name="message" rows="4"></textarea>
+          </div>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded mt-5" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <!-- Link to Responsive Design Example -->
+    <section>
+      <div>
+        <a href="./responsive.html">Check out our Responsive Design Example</a>
+      </div>
+    </section>
+  </body>
+</html>
